@@ -10,7 +10,7 @@ class PowerStoneTest {
 
   @BeforeEach
   void setUp() {
-    testPerson = new Person();
+    testPerson = new Titan();
     powerStone = PowerStone.getInstance();
   }
 
